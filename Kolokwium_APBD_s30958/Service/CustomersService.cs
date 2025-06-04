@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Kolokwium_APBD_s30958.Service;
 
-public class CustomersService
+public class CustomersService : ICustomersService
 {
     private readonly DatabaseContext _context;
 
